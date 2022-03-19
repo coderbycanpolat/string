@@ -9,17 +9,17 @@ kirmizi="\033[1;31m"
 yeşil="\033[1;32m"
 beyaz="\033[0m"
 
-linkler=("https://ay.live/iEcIjK","https://ay.live/RyHMaM","https://ay.live/QqRyE","https://ay.live/figmui")
+linkler=("https://lnkload.com/2vTs1","https://lnkload.com/2vTs2","https://lnkload.com/2vTs3","https://lnkload.com/2vTs5")
 link = str(''.join((random.choice(linkler) for i in range(1))))
-if link == "https://ay.live/iEcIjK":
+if link == "https://lnkload.com/2vTs1":
     lisans="TgAndroedit"
-if link == "https://ay.live/RyHMaM":
+if link == "https://lnkload.com/2vTs2":
     lisans="İnstagramCanpolatgkky"
-if link == "https://ay.live/QqRyE":
+if link == "https://lnkload.com/2vTs3":
     lisans="AndroeditTakipteyim"
-if link == "https://ay.live/figmui":
+if link == "https://lnkload.com/2vTs4":
     lisans="AndroeditMükemmel"
-if link == "https://ay.live/Xoo8b":
+if link == "https://lnkload.com/2vTs5":
     lisans="BurayaBakıyorsanAboneOl"
 def clear():
     os.system("clear")
