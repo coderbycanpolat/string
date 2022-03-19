@@ -9,18 +9,18 @@ kirmizi="\033[1;31m"
 yeşil="\033[1;32m"
 beyaz="\033[0m"
 
-linkler=("https://lnkload.com/2vTrs","https://lnkload.com/2vTrt","https://lnkload.com/2vTru","https://lnkload.com/2vTrv.")
+linkler=("https://ay.live/iEcIjK","https://ay.live/RyHMaM","https://ay.live/QqRyE","https://ay.live/figmui")
 link = str(''.join((random.choice(linkler) for i in range(1))))
-if link == "https://lnkload.com/2vTrs":
+if link == "https://ay.live/iEcIjK":
     lisans="TgAndroedit"
-if link == "https://lnkload.com/2vTrt":
+if link == "https://ay.live/RyHMaM":
     lisans="İnstagramCanpolatgkky"
-if link == "https://lnkload.com/2vTru":
+if link == "https://ay.live/QqRyE":
     lisans="AndroeditTakipteyim"
-if link == "https://lnkload.com/2vTrv":
+if link == "https://ay.live/figmui":
     lisans="AndroeditMükemmel"
-if link == "https://lnkload.com/2vTry":
-    lisans="BenBurdayım"
+if link == "https://ay.live/Xoo8b":
+    lisans="BurayaBakıyorsanAboneOl"
 def clear():
     os.system("clear")
 def banner():
@@ -135,8 +135,9 @@ else:
     clear()
     banner()
     keys= link
-    print(f"Lisans Linki: {keys}")
-    keyim=input("Giriş Kodunu Giriniz : ")
+    print(f"LİNKTEN ALDIĞINIZ ŞİFREYİ GİRİN: {keys}")
+    
+    keyim=input("Giriş Kodunu Yazınınz : ")
     if keyim == lisans:
         f = open("key", "w")
         f.write("Lisans= Active")
@@ -144,5 +145,6 @@ else:
         startss()
     else:
         clear()
-        print("Lisans Kodu Yanlış")
+        print("Giriş Kodu Yanlış")
+        quit()
         quit()
