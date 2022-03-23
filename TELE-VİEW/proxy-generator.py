@@ -109,4 +109,4 @@ for th in threads:
     th.join()
 
 
-input(f' \n\n[/] Total scraped proxies: ({len(good_proxies)}) type and thing to quit! ')
+input(f' \n\n[canpolatgkky] Toplam Bulunan proxy'ler: ({len(good_proxies)}) type and thing to quit! ')
