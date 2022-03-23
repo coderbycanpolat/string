@@ -109,4 +109,4 @@ for th in threads:
     th.join()
 
 
-input(f' \n\n[canpolatgkky] Toplam Bulunan Proxyler : ({len(good_proxies)}) Adet Proxyler.txt Dosyasına Kayıt Edilldi. ')
+input(f' \n\n[canpolatgkky] Toplam Bulunan Proxyler : ({len(good_proxies)}) Adet proxy.txt Dosyasına Kayıt Edilldi. ')
