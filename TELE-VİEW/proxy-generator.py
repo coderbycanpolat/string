@@ -34,10 +34,10 @@ https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&c
 '''
 
 
-file = open('proxyler.txt', 'w')
+file = open('proxy.txt', 'w')
 file.write(' Telegram : @canpolatgkky Proxyleriniz:\n')
 file.close()
-file = open('proxyler.txt', 'a')
+file = open('proxy.txt', 'a')
 good_proxies = list()
 
 
